@@ -13,7 +13,6 @@ d = feedparser.parse('https://www.malware-traffic-analysis.net/blog-entries.rss'
 urls = []
 for i in d.entries: 
     urls.append(i.link)
-    print i
 
 def getLinks(url):
     html_page = urllib2.urlopen(url)
