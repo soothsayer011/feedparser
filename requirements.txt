@@ -1,6 +1,6 @@
 BeautifulSoup==3.2.1
 beautifulsoup4==4.4.1
 feedparser==5.2.1
-requests==2.18.4
+requests==2.19
 simplejson==3.15.0
-urllib3==1.22
+urllib3==1.23
